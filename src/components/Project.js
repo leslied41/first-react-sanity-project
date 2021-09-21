@@ -31,7 +31,7 @@ export default function Project() {
                   className="relative rounder-lg shadow-xl bg-white p-16"
                 >
                   <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                    <a href={project.link} target="_blank">
+                    <a href={project.link} target="_blank" rel="noreferrer">
                       {project.title}
                     </a>
                   </h3>
@@ -54,6 +54,7 @@ export default function Project() {
                     <a
                       href={project.link}
                       target="_blank"
+                      rel="noreferrer"
                       className="text-red-500 font-bold hover:underline hover:text-red-400"
                     >
                       view the project{""}
