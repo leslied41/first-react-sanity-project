@@ -34,12 +34,12 @@ export default function About() {
   }
   return (
     <main className="relative">
-      <img src={image} alt="image" className="absolute w-full" />
+      <img src={image} alt="bc" className="absolute w-full" />
       <div className="p-10 lg:pt-48 container ma-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
-            alt="image"
+            alt="avatar"
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
           />
           <div className="text-lg flex flex-col justify-center ">
